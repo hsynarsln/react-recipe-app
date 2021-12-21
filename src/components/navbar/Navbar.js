@@ -21,7 +21,7 @@ const Navbar = () => {
 
       <Menu isOpen={isOpen}>
         <MenuLink to='/about'>About</MenuLink>
-        <MenuLink to={{ pathname: 'https://google.com' }}>Github</MenuLink>
+        <MenuLink to={{ pathname: 'https://github.com/hsynarsln?tab=repositories' }}>Github</MenuLink>
         <MenuLink to='/login'>Logout</MenuLink>
       </Menu>
     </Nav>
